@@ -1,0 +1,109 @@
+body
+{
+  background-color: #ffffff;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer
+{
+  text-align: center;
+  vertical-align: top;
+  margin-top: auto;
+}
+  
+@media screen and (orientation:landscape) 
+{   
+  .logo
+  {
+    height: auto;
+    width: 80%;
+    margin-top: 20vw;
+  }
+  
+  .icon
+  {
+    margin: 1vw;
+    font-weight: 900;
+    font-size: 5vw;
+  }
+
+  .stroke
+  {
+      paint-order: stroke fill;
+      -webkit-text-stroke: 0.12vw rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+  }
+}
+
+@media screen and (orientation:portrait) 
+{
+  .logo
+  {
+    height: auto;
+    width: 90%;
+    margin-top: 20vw;
+  }
+
+  .icon
+  {
+    margin-top: 10vw;
+    font-weight: 900;
+    width: 20%;
+    font-size: 10vw;
+  }
+
+  .stroke
+  {
+      paint-order: stroke fill;
+      -webkit-text-stroke: 0.3vw rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+  }
+}
+
+.bg 
+{
+  background-size: 300% 300%;
+  background-image: url(assets/test1.jpg);
+  background-size: auto;
+  -webkit-animation: AnimateBG 20s ease infinite;
+  animation: AnimateBG 20s ease infinite;
+}
+
+@-webkit-keyframes AnimateBG 
+{
+  0%
+  {
+    background-position: 0% 50%;
+  }
+  50%
+  {
+    background-position: 100% 50%;
+  }
+  100%
+  {
+    background-position: 0% 50%;
+  }
+}
+  
+@keyframes AnimateBG 
+{
+  0%
+  {
+    background-position: 0% 50%;
+  }
+  50%
+  {
+    background-position: 100% 50%;
+  }
+  100%
+  {
+    background-position: 0% 50%;
+  }
+}
