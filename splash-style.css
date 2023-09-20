@@ -1,6 +1,7 @@
 body
 {
-  background-color: #ffffff;
+  background-size: 300% 300%;
+  background-image: linear-gradient(-45deg, rgba(0, 0, 0) 0%, rgba(0, 0, 0) 25%, rgba(46, 46, 46) 51%, rgba(0, 0, 0) 100%);
   height: 100%;
   font-family: 'Roboto', sans-serif;
   min-height: 100vh;
@@ -39,6 +40,14 @@ body
       color: rgb(255, 255, 255);
       text-decoration: none;
   }
+
+  .bg-img
+  {
+    background-size: 150vw auto;
+    background-image: url(assets/splash.png);
+    -webkit-animation: AnimateBG 60s ease infinite;
+    animation: AnimateBG 60s ease infinite;
+  }
 }
 
 @media screen and (orientation:portrait) 
@@ -65,17 +74,14 @@ body
       color: rgb(255, 255, 255);
       text-decoration: none;
   }
-}
 
-.bg 
-{
-  background-size: 300% 300%;
-  background-image: url(assets/test1.jpg);
-  background-size: auto;
-  -webkit-animation: AnimateBG 20s ease infinite;
-  animation: AnimateBG 20s ease infinite;
+  .bg-img
+  {
+    background-image: url(assets/splash.png);
+    background-size: cover;
+    background-position-x: center;
+  }
 }
-
 @-webkit-keyframes AnimateBG 
 {
   0%
