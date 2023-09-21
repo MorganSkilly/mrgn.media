@@ -46,7 +46,7 @@ body
     background-size: 150vw auto;
     background-image: url(assets/splash.jpg);
     -webkit-animation: AnimateBG 60s ease infinite;
-    animation: AnimateBG 60s ease infinite;
+    animation: AnimateBG 60s ease infinite;    
   }
 }
 
