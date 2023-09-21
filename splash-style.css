@@ -44,7 +44,7 @@ body
   .bg-img
   {
     background-size: 150vw auto;
-    background-image: url(assets/splash.png);
+    background-image: url(assets/splash.jpg);
     -webkit-animation: AnimateBG 60s ease infinite;
     animation: AnimateBG 60s ease infinite;
   }
@@ -77,7 +77,7 @@ body
 
   .bg-img
   {
-    background-image: url(assets/splash.png);
+    background-image: url(assets/splash.jpg);
     background-size: cover;
     background-position-x: center;
   }
