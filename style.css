@@ -43,12 +43,6 @@ body
 {
   font-weight: 600;
 }
-
-.albums
-{
-  font-weight: 100;
-  font-size: 4vw;
-}
   
 @media screen and (orientation:landscape) 
 {   
