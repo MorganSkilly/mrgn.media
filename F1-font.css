@@ -1,0 +1,40 @@
+/* Regular */
+@font-face {
+  font-family: 'F1 Regular';
+  src: url('assets/Fonts-F1/Formula1-Regular-1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'F1 Bold';
+  src: url('assets/Fonts-F1/Formula1-Bold_web.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Black */
+@font-face {
+  font-family: 'F1 Black';
+  src: url('assets/Fonts-F1/Formula1-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'F1 Italic';
+  src: url('assets/Fonts-F1/Formula1-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Wide */
+@font-face {
+  font-family: 'F1 Wide';
+  src: url('assets/Fonts-F1/Formula1-Wide.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: expanded;
+}
